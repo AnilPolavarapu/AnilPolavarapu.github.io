@@ -7,14 +7,14 @@ There are times when I have to search for code in a bash shell and cannot connec
 
 For example, to find all java files which have the word responseCode in them I use this.
 
-<code>find <path of code base> -name “*.java” | xargs grep responseCode</code>
+<code>find <path of code base> -name “*.java” | xargs grep responseCode
 
 
 I find this repetitive and many developers have created aliased around this to hide the long syntax/avoid typing.
 
 For example, you can add this to your bashrc (or equivalent in your OS)
 
-<code>alias fj=’find <path of code base> -name “*.java” | xargs grep’</code>
+<code>alias fj=’find <path of code base> -name “*.java” | xargs grep’
 
 Aliases make this bearable but still pretty ugly as this does not give you contextual information of the search term, if you need that you have to resort to using -A (after) and -B (before) flags in grep.
 
@@ -26,8 +26,7 @@ Here’s how ack listing looks like, arguably prettier and useful than bare bone
 
 The man page of ack says this and so far it is living up to expectations.
 
-*DESCRIPTION
-Ack is designed as a replacement for 99% of the uses of grep.*
+*Ack is designed as a replacement for 99% of the uses of grep.*
 
 ### Installing ack
 
