@@ -4,13 +4,13 @@ permalink:           pretty
 # Setup
 title:               Anil Polavarapu
 tagline:             
-  pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
-url:                 http://getpoole.com
+url:                 
 paginate:            1
 baseurl:             ""
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
 
 # Assets
 #
@@ -28,7 +28,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/AnilPolavarapu/AnilPolavarapu.github.io
 
 # Gems
 gems:
