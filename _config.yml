@@ -10,7 +10,8 @@ baseurl:             ""
 
 pages_list:       
   About: '/about'
-  Archive: '/archive'
+  Books: '/books'
+  Archive: '/archive'  
 
 # Assets
 #
@@ -21,9 +22,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Anil Polavarapu
+  url:               
+  email:             pvanil.kumar@gmail.com
 
 # Custom vars
 version:             2.0.0

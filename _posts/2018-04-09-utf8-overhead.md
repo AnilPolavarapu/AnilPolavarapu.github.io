@@ -19,7 +19,7 @@ Hindi translation of that sentense.
 
 <code>क्या हाल है?
 
-That's 14 characters in Hindi but after encoding we have 32 bytes (2.5 times)
+That's 14 characters in Hindi but after encoding we have 32 bytes (2.5 times).
 
 Telugu translation of that sentence.
 
