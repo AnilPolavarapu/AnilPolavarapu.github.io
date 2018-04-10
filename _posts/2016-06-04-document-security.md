@@ -12,11 +12,9 @@ Secret is 'password'
 
 For n=3 and t=2, I can get fragments like,
 
-1-uasdasdasf
-
-2-87uba5823n
-
-3-98ujab16jk
+<code>1-uasdasdasf
+<code>2-87uba5823n
+<code>3-98ujab16jk
 
 When you combine say 1 & 3 fragments, you get back the original secret.
 
@@ -24,6 +22,8 @@ When you combine say 1 & 3 fragments, you get back the original secret.
 1. Put down my documents/will as text files.
 
 2. Encrypt the files with a master password (symmetric - SHA256) and transfer to a thumb drive.
+
+<code>openssl aes-256-cbc -a -e -in plain.txt -out message.enc 
 
 3. Break the password into 3 pieces with threshold as 2.
 
@@ -38,6 +38,8 @@ The 2 of the 3 friends will definitely attend the last rights.
 Family member will take the fragments from them and get the master secret.
 
 Family member will decrypt the files using the master secret.
+
+<code>openssl aes-256-cbc -a -d -in message.enc -out plain.txt
 
 ### Reference
 * [Online demo of Shamir's algorithm](http://www.point-at-infinity.org/ssss/demo.html)
