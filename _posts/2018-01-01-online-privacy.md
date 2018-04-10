@@ -27,6 +27,10 @@ Create an echo-chamber to reinforce false/bad behavior
 
 ### What can I do?
 
+#### Search engine
+
+Use DuckDuckGo instead of Google search.
+
 #### Sharing controls
 
 Platforms have bad defaults but fortunately they let you choose the sharing level on various things (like posts, likes & media). 
